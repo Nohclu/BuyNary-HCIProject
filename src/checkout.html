@@ -1,0 +1,69 @@
+<!--
+	Author: Jake Grogan
+	Student Number: 16456346
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buynary | Electronics Store</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/semantic.css">
+	<link rel="stylesheet" type="text/css" href="icon.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+	<div class="ui fixed navbg menu">
+    	<div class="ui container">
+      		<a href="./index.html" class="header item white-text logo">
+        		Buynary
+      		</a>
+      		<div class="ui category search">
+		  		<div class="ui icon input">
+		    		<input class="prompt" type="text" placeholder="Search products..."><a href="./search.html" alt="enter search"><i alt="enter search" class="fa fa-search" style="color:white; margin-top:15px; margin-left:10px;" href="./search.html"></i></a>
+		  		</div>
+		  		<div class="results"></div>
+			</div>
+      		<a href="./login.html" class="item white-text">Sign in</a>
+      		<a href="./register.html" class="item white-text">Sign up</a>
+      		<a href="./basket.html" class="item white-text">Basket</a>
+            <a href="./aboutUs.html" class="item white-text">About Us</a>
+            <a href="./contactUs.html" class="item white-text">Contact Us</a>
+    	</div>
+  	</div>
+
+  	<div class="ui middle aligned center aligned grid">
+	  <div class="column">
+		<form class="ui form">
+		  <h1 class="ui dividing header">Shipping Information</h1>
+		  <div class="field">
+		    <label>Name</label>
+		    <div class="two fields">
+		      <div class="field">
+		        <input type="text" name="shipping[first-name]" placeholder="First Name">
+		      </div>
+		      <div class="field">
+		        <input type="text" name="shipping[last-name]" placeholder="Last Name">
+		      </div>
+		    </div>
+		  </div>
+		  <div class="field">
+		    <label>Billing Address</label>
+		    <div class="fields">
+		      <div class="twelve wide field">
+		        <input type="text" name="shipping[address]" placeholder="Street Address">
+		      </div>
+		      <div class="four wide field">
+		        <input type="text" name="shipping[address-2]" placeholder="Apt #">
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <a href="payment.html" style="text-decoration: none; color:white;"><div class="ui yellow button">Next</div></a>
+		  
+		</form>
+	  </div>
+	</div>
+
+</body>
+</html>

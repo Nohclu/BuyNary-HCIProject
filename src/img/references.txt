@@ -1,0 +1,8 @@
+homepage.jpg:
+https://www.timeslifestyle.net/20180331/deals-sales-on-acer-and-asus-laptops/
+laptop.png:
+http://www.pngall.com/laptop-png/download/5438
+nokia.jpg:
+https://pngtree.com/freepng/nokia_2158404.html
+tablet.png:
+https://www.kisspng.com/png-ipad-mini-ipad-2-ipad-air-ipad-3-broken-screen-1589915/preview.html
